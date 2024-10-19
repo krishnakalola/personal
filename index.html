@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Krishna Kalola's Personal Website">
+    <title>Krishna Kalola - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        .intro {
+            margin-top: 20px;
+        }
+
+        .intro h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            font-size: 20px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+            background-color: #fff;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .content-list {
+            list-style-type: none;
+            text-align: left;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        .content-list li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .content-list li img {
+            margin-right: 15px;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .article {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .article:hover {
+            transform: translateY(-5px);
+        }
+
+        .article img {
+            width: 100%;
+            height: auto;
+        }
+
+        .article h3 {
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+        }
+
+        .article p {
+            padding: 0 10px 10px;
+            text-align: center;
+        }
+
+        .article a {
+            display: block;
+            padding: 10px;
+            background-color: #0073b1;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .article a:hover {
+            background-color: #005f8c;
+        }
+
+        #about img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #0073b1;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #005f8c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#podcast">Favorite Podcast</a></li>
+                <li><a href="#projects">Current Projects</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h1>Welcome to Krishna Kalola's Website!</h1>
+            <p>BAIT & Finance Major at Rutgers University - New Brunswick</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="https://assets.skool.com/f/c3b54c34f29043af93328f142ae11dd8/75ace6f4adbb48359943ed8474fdfbd9fb4bc2c48e0a46a98af8badc6a76db31" alt="Krishna Kalola">
+            <p>Hi, I'm Krishna Kalola. I'm currently a junior at Rutgers University - New Brunswick, majoring in Business Analytics and Information Technology (BAIT) and Finance. I grew up in Marlboro, NJ, and love exploring new opportunities in entrepreneurship & business.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies & Activities</h2>
+            <ul class="content-list">
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" alt="Chelsea F.C.">
+                    <div>
+                        <strong>Soccer:</strong> I love watching soccer. Up until college I played soccer very competitively at some of NJ's top academies. My favorite team to watch is Chelsea F.C.
+                    </div>
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1200px-The_Blue_Marble_%28remastered%29.jpg" alt="Thailand">
+                    <div>
+                        <strong>Traveling:</strong> I love traveling the world with my family. So far, I've been to 30+ countries. My favorite places include Thailand and the Maldives.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="podcast">
+            <h2>Favorite Podcast</h2>
+            <ul class="content-list">
+                <li>
+                    <img src="https://i.scdn.co/image/ab6765630000ba8ab8bc00dfdc4032e0d18074fb" alt="My First Million Podcast">
+                    <div>
+                        <strong>My First Million:</strong> I enjoy listening to this podcast for business insights and inspiration.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Current Projects</h2>
+            <ul class="content-list">
+                <li>
+                    <img src="https://cdn.prod.website-files.com/649483ab799f610b8944934e/64d08c237781010a1e5a938d_2.jpeg" alt="Smart Nonsense">
+                    <div>
+                        <strong>Smart Nonsense:</strong> Join 70,000+ subscribers and get our daily comic explaining nerdy stuff like you're 5. <a href="https://smartnonsense.com" target="_blank">smartnonsense.com</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://media.licdn.com/dms/image/v2/D4E0BAQHz0N5w7RpMrA/company-logo_200_200/company-logo_200_200/0/1699492276387/futureadmit_logo?e=2147483647&v=beta&t=EeFRgjsAN7ZPRKGz1MH59ZswEFR5Q772ToE3v2NZuts" alt="Future Admit">
+                    <div>
+                        <strong>Future Admit:</strong> Building the Duolingo of test prep. <a href="https://www.futureadmit.com" target="_blank">futureadmit.com</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="articles">
+            <h2>Featured Articles</h2>
+            <div class="articles">
+                <div class="article">
+                    <img src="https://cdn.prod.website-files.com/649aa49e57793ed61ecbd3fd/670f5447a7b3cf98b6c1a182_The%20Smallest%20_Country_%20In%20The%20World-card.png" alt="The Smallest Country In The World">
+                    <h3>The Smallest Country In The World</h3>
+                    <p>Explore one of the most fascinating countries on the planet!</p>
+                    <a href="https://www.smartnonsense.com/post/the-smallest-country-in-the-world" target="_blank">Read More</a>
+                </div>
+                <div class="article">
+                    <img src="https://cdn.prod.website-files.com/649aa49e57793ed61ecbd3fd/6707b3028a540b5f4c7f7521_Why%20Do%20We%20Sweat_%20%F0%9F%A5%B5-card.png" alt="Why Do We Sweat?">
+                    <h3>Why Do We Sweat?</h3>
+                    <p>Discover the science behind why our bodies sweat.</p>
+                    <a href="https://www.smartnonsense.com/post/sweat" target="_blank">Read More</a>
+                </div>
+                <div class="article">
+                    <img src="https://cdn.prod.website-files.com/649aa49e57793ed61ecbd3fd/66f0fb87973d746b2fb8d1eb_Why%20You%20Actually%20Have%202%20Brains-card.png" alt="Why You Actually Have 2 Brains">
+                    <h3>Why You Actually Have 2 Brains</h3>
+                    <p>Uncover the mystery of why humans are more complex than we think.</p>
+                    <a href="https://www.smartnonsense.com/post/2-brains" target="_blank">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul class="content-list">
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" alt="LinkedIn">
+                    <div>
+                        <a href="https://www.linkedin.com/in/krishnakalola" target="_blank">Connect with me on LinkedIn</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Krishna Kalola</p>
+    </footer>
+</body>
+</html>
